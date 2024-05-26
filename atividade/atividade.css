@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Press+Start+2P&display=swap');
+* {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-attachment: fixed;
+    background-image: url(imagens/fundo.jpeg);
+}
+
+main {
+    margin: 5rem 20rem;
+    background-color: rgba(255, 255, 255, .8);
+    
+}
+
+.sep {
+    font-size: 4rem;
+    padding-left: 2rem;
+}
+
+.hall {
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro {
+    padding: 5rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.coletanea0 {
+    display: inline-block;
+    margin: 8rem 8rem 8rem 12rem;
+}
+
+
+.card0 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, rgb(255, 187, 0) 0%, #f09c00 50%, rgb(255, 60, 0) 100%);
+    
+}
+
+.card0:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+
+.fundoimg0 {
+    padding-left: 15%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/fogo.png);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome0 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgb(255, 94, 0);
+    border-radius: 1rem 0 15rem 0;
+    width: 15rem;
+}
+
+.type0 {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+
+.type1 {
+    position: absolute;
+    top: 0;
+    right: 5rem;
+}
+
+.fundo0 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade0 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc0 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar0 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac0 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 3rem;
+}
+/******************************************************* card1 **************************************************************/
+.card1 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, rgb(116, 31, 226) 0%, #d400f0 50%, rgb(255, 0, 221) 100%);   
+}
+
+.card1:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg1 {
+    padding-left: 15%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/flores.jpg);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: #e2356b;
+    border-radius: 1rem 0 15rem 0;
+    width: 11rem;
+}
+
+.fundo1 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade1 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc1{
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar1 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac1 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
+/******************************************************* card2 **************************************************************/
+.card2 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, rgb(18, 14, 250)0%, rgb(255, 217, 0) 100%);
+  
+}
+
+.card2:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg2 {
+    padding-left: 15%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/raios.png);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgb(209, 178, 3);
+    border-radius: 1rem 0 15rem 0;
+    width: 11rem;
+}
+
+.fundo2 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade2 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc2 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar2 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac2 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
+/******************************************************* card3 **************************************************************/
+.card3 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, rgb(0, 47, 255)0%,  rgb(184, 2, 2) 100%);
+  
+}
+
+.card3:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg3 {
+    padding-left: 15%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/meteor.png);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgb(170, 29, 29);
+    border-radius: 1rem 0 15rem 0;
+    width: 11rem;
+}
+
+.fundo3 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade3 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc3 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar3 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac3 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
+
+/******************************************************* card4 **************************************************************/
+.card4 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, rgb(153, 19, 170)0%,#7a757c 100%);
+  
+}
+
+.card4:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg4 {
+    padding-left: 15%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/UNIVERSE.PNG);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgb(126, 124, 115);
+    border-radius: 1rem 0 15rem 0;
+    width: 21rem;
+}
+
+.fundo4 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade4 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc4 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar4 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac4 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
+
+/******************************************************* card5 **************************************************************/
+.card5 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, rgb(238, 112, 8)0%,#7a757c 100%);
+  
+}
+
+.card5:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg5 {
+    padding-left: 15%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/pedras.png);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgb(252, 183, 23);
+    border-radius: 1rem 0 15rem 0;
+    width: 11rem;
+}
+
+.fundo5 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade5 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc5 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar5 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac5 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
+
+/******************************************************* card6 **************************************************************/
+.card6 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, rgb(255, 229, 251)0%,#ff51f3 100%);
+  
+}
+
+.card6:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg6 {
+    padding-left: 10%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/palco.png);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgb(255, 135, 241);
+    border-radius: 1rem 0 15rem 0;
+    width: 11rem;
+}
+
+.fundo6 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade6 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc6 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar6 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac6 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
+/******************************************************* card7 **************************************************************/
+.card7 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, #cacaca 0%,#1581e7 100%);
+  
+}
+
+.card7:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg7 {
+    padding-left: 10%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/amimir.png);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: #1581e7;
+    border-radius: 1rem 0 15rem 0;
+    width: 11rem;
+}
+
+.fundo7 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade7 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc7 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar7 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac7 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
+/******************************************************* card8 **************************************************************/
+.card8 {
+    width: 15vw;
+    height: 44vh;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to top, rgb(245, 13, 129)0%,#4c32f1 100%);
+  
+}
+
+.card8:hover {
+    transition: 1.5s;
+    z-index: 1;
+    scale: 1.5;
+}
+
+.fundoimg8 {
+    padding-left: 10%;
+    border: 1px solid black;
+    width: 14vw;
+    height: 22vh;
+    background-image: url(imagens/mar.png);
+    margin: 4rem 0 0 .5rem;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+}
+
+.nome8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgb(248, 80, 189);
+    border-radius: 1rem 0 15rem 0;
+    width: 11rem;
+}
+
+.fundo8 {
+    background-color: rgb(172, 172, 172);
+    margin: 2rem .5rem  0 .5rem;
+}
+
+.habilidade8 {
+    font-size: 2rem;
+    background-color: rgb(145, 141, 141);
+    width: 7vw;
+    padding-left: 1.5rem;
+    margin: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20rem;
+}
+
+.arc8 {
+    font-size: 2rem;
+    margin: .5rem;
+    height:5rem;
+}
+
+.ar8 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 6.5rem;
+    right: 6rem;
+}
+
+.ac8 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 7rem;
+}
