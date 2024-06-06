@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+  }
+  
+  h2 {
+    font-size: 4rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+     
+  
+  }
+  
+  p {
+    font-size: 2rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+   
+  }
+  
+  .txt-senai h3 {
+    color: crimson;
+    
+  }
+  
+  #nav-corporativa1 {
+    background-color: red;
+  }
+  
+  #item a {
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+  
+  }
+  
+  #item a:hover {
+    color: rgb(133, 20, 20);
+    filter: drop-shadow(0 0 .3rem rgb(255, 255, 255));
+  }
+  
+  .container2 {
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #itens a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0); 
+    
+  }
+  
+  #itens a:hover {
+    color: rgb(255, 0, 0);
+    filter: drop-shadow(0 0 .3rem  rgba(255, 0, 0, 0.623));
+  }
+  
+  .container2 img {
+    width: 15rem;
+    height: 5rem;
+  }
+  
+  
+  
+  
+  .a {
+    position: relative;
+    height: 30vh;
+  }
+  
+  .front  img{
+    width: 20rem;
+    height: 30vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .transicao {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  
+  .a:hover .transicao {
+    opacity: 1;
+  }
+  
+  .back img {
+   width: 20rem;
+    height: 30vh;
+    position: absolute;
+    left: -.8rem;
+    top: -1rem;
+    padding: 2rem;
+    background-color: black;
+  }
+  
