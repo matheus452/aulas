@@ -1,0 +1,35 @@
+.imagem-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .imagem-container img {
+    width: 20rem; /* Ajuste a largura da imagem */
+    height: 15rem; /* Ajuste a altura da imagem */
+    transition: transform 0.5s ease; /* Tempo e tipo de transição */
+    
+  }
+  
+  .informacoes {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 10rem;
+    border-top: 1rem solid black;
+    border-right: 1rem solid black;
+    color: black; /* Cor do texto */
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .imagem-container:hover img {
+    transform: translateX(24rem); /* Distância que a imagem se move para o lado */
+  }
+  
+  .imagem-container:hover .informacoes {
+    display: block;
+  }
+
+  
