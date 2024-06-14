@@ -4,7 +4,7 @@
   font-size: 62.5%;
   box-sizing: border-box;
 }
-/* *******************************HEADER************************ */
+
 nav {
   width: 100%;
   height: 18vh;
@@ -12,12 +12,11 @@ nav {
   background-color: rgb(134, 69, 23);
   position: relative;
   align-items: center;
-  margin-bottom: 10rem;
 }
 
 .links a {
 font-size: 5rem;
-margin: 0 5rem;
+margin: 0 0 0 17rem;
 color: white;
 text-decoration: none;
 }
@@ -32,56 +31,38 @@ text-decoration: none;
 
 
 
-/* *******************************SEPARACAO************************ */
-
-
-
-
-
 .linha {
   border-bottom: 1rem solid rgb(134, 69, 23);
-  width: 100vw;
+  width: 99.5vw;
+
 }
 
 .separacao h1 {
-  background-color: white;
-  position: relative;
-  top: 3rem;
-  left: 5rem;
-  width: 13rem;
-  padding: 0 1rem;
-  font-size: 3.5rem;
+ background-color: white;
+ position: absolute;
+ top: 7rem;
+ left: 15rem;
+ padding: 2rem;
 }
 
-
-.separacao1 h1 {
-  background-color: white;
+.separacao {
+  padding: 10rem 0;
   position: relative;
-  top: -2.5rem;
-  left: 5rem;
-  width: 16rem;
-  padding: 0 1rem;
-  font-size: 3.5rem;
 }
-
-
-
-
-/* *******************************PREDIOS************************ */
 
 
 
 .imagem-container {
     position: relative;
-    display: inline-block;
-    margin-top: 5rem;
+    
   }
   
   .imagem-container img {
     width: 30rem; 
     height: 41.3rem;
     transition: transform .8s ease; 
-    
+    border: 1rem solid black;
+    border-radius: 1rem;
   }
   
   .informacoes {
@@ -89,13 +70,14 @@ text-decoration: none;
     position: absolute;
     top: 0;
     left: 0;
-    width: 14rem;
+    width: 20.5rem;
     height: 41.3rem;
     border-top: .5rem solid black;
-    border-right: .5rem solid black;
     color: black;
     text-align: center;
     padding: 2rem;
+    background-color: rgba(134,69,23, .8) ;
+    border-radius: 1rem;
   }
   
   .imagem-container:hover img {
@@ -106,22 +88,15 @@ text-decoration: none;
     display: block;
   }
 
-
-
-/* *******************************CASAS************************ */
- 
-
-
-.imagem-container1 {
+  .imagem-container1 {
     position: relative;
-    display: inline-block;
-    margin-top: 10rem;
   }
   
   .imagem-container1 img {
     width: 30rem; 
     transition: transform .8s ease; 
-    
+    border: 1rem solid black;
+    border-radius: 1rem;
   }
   
   .informacoes1 {
@@ -129,13 +104,14 @@ text-decoration: none;
     position: absolute;
     top: 0;
     left: 0;
-    width: 14rem;
+    width: 20.5rem;
     height: 20rem;
     border-top: .5rem solid black;
-    border-right: .5rem solid black;
     color: black;
     text-align: center;
     padding: 2rem;
+    background-color: rgba(134,69,23, .8) ;
+    border-radius: 1rem;
   }
   
   .imagem-container1:hover img {
@@ -146,39 +122,68 @@ text-decoration: none;
     display: block;
   }
 
-
-
-/* *******************************FOOTER************************ */
-
-
-  .redes-sociais {
-    width: 100%;
-    background-color: rgb(134, 69, 23);
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15rem;
-  }
-  
-  .redes-sociais i {
-    font-size: 3.5rem;
-    padding-right: 2rem;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    color: white;
-  }
-  
-  .redes-sociais a,
-  a:hover,
-  a:focus,
-  a:active {
+  .informacoes a {
+    font-size: 2rem;
     text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1rem solid black;
+    border-radius: 15rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
   }
 
-  
+  .informacoes1 a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: .1rem solid black;
+    border-radius: 15rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
 
- 
+p {
+  font-size: 1.6rem;
+}
 
-  
+.redes-sociais {
+  width: 100%;
+  background-color: rgb(134, 69, 23);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.redes-sociais i {
+  font-size: 3.5rem;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: white;
+}
+
+.imagem-container2:hover img {
+  transform: translateX(14rem);
+}
+
+.imagem-container2:hover .informacoes1 {
+  display: block;
+}
+
+.imagem-container2 {
+  position: relative;
+}
+
+.imagem-container2 img {
+  width: 30rem; 
+  transition: transform .8s ease; 
+  border: 1rem solid black;
+  border-radius: 1rem;
+}
